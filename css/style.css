@@ -1,6 +1,6 @@
 body {
     /* 设置背景图片 */
-    background-image: url('/img/background.jpg'); /* 替换成你的图片路径 */
+    background-image: url('/images/background.PNG'); /* 替换成你的图片路径 */
 
     /* 以下属性用于控制背景图的显示方式 (可选，但常用) */
 
