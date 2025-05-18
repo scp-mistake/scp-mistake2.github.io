@@ -1,0 +1,33 @@
+body {
+    /* 设置背景图片 */
+    background-image: url('/img/background.jpg'); /* 替换成你的图片路径 */
+
+    /* 以下属性用于控制背景图的显示方式 (可选，但常用) */
+
+    /* 防止背景图重复 */
+    background-repeat: no-repeat;
+
+    /* 将背景图缩放以覆盖整个元素区域 */
+    background-size: cover;
+
+    /* 将背景图居中 */
+    background-position: center;
+
+    /* 当页面滚动时，背景图固定不动 */
+    background-attachment: fixed;
+
+    /* 设置一个背景颜色作为图片未加载时的备选或叠加效果 */
+    background-color: #f0f0f0; /* 替换为你想要的颜色 */
+
+    /* 如果你的内容很长，确保 body 有足够的最小高度 */
+    min-height: 100vh;
+}
+
+/* 你可能还需要调整内容的样式，确保在背景图上可见 */
+/* 例如，给文本添加阴影或调整颜色 */
+/*
+h1, p {
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+*/
